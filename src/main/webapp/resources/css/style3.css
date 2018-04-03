@@ -1,0 +1,279 @@
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p,
+	blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn,
+	em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var,
+	b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend,
+	table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas,
+	details, embed, figure, figcaption, footer, header, hgroup, menu, nav,
+	output, ruby, section, summary, time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, footer, header, hgroup,
+	menu, nav, section {
+	display: block;
+}
+
+body {
+	line-height: 1;
+}
+
+ol, ul {
+	list-style: none;
+}
+
+blockquote, q {
+	quotes: none;
+}
+
+blockquote:before, blockquote:after, q:before, q:after {
+	content: '';
+	content: none;
+}
+
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/***********************************************************************/
+body {
+	font-family: 'Roboto', sans-serif;
+}
+
+.header .container {
+	width: 100%;
+	background-color: #183544;
+}
+
+.col-md-2.img img {
+	width: 60%;
+	padding: 10px 0 10px 0;
+	margin-left: 4em;
+}
+
+.content {
+	position: relative;
+}
+
+.content .container .back {
+	border-bottom: 1px solid #ddd;
+	padding: 0px;
+	margin-bottom: 1em;
+}
+
+.content .container .col-md-12 .back-home i {
+	margin-right: 1em;
+	margin-bottom: 2em;
+}
+
+.content .container .col-md-12 .back-home {
+	margin-top: 1em;
+}
+
+.content .container .cart {
+	padding: 0px;
+}
+
+.content .container .cart .text {
+	font-size: 20px;
+	font-weight: 600;
+	margin-bottom: 0.5em;
+}
+
+.content .container .col-md-2 {
+	padding: 0px;
+	color: #646464;
+	font-size: 14px;
+}
+
+.content .container .col-md-2 img {
+	margin-top: 1.5em;
+	margin-left: 0em;
+	width: 62%;
+}
+
+.content .container .col-md-3 {
+	padding-top: 2em;
+	padding-left: 0px;
+	padding-right: 0px;
+	margin-left: -30px;
+}
+
+.content .container .price p {
+	margin-bottom: 4.5em;
+}
+
+.content .container .price p.instock {
+	color: #c59c20 !important;
+	font-size: 12px;
+	margin-bottom: 10px;
+	margin-top: 5px;
+}
+
+.content .container .price p.model {
+	font-size: 14px;
+}
+
+.follow {
+	font-size: 0.8em;
+	margin-left: -5px;
+	margin-top: 10px;
+	width: 100%;
+}
+
+.follow i.fa-heart, .fa-facebook-square {
+	font-size: 2em;
+	margin-right: 5px;
+	margin-left: 5px;
+}
+
+.fa-facebook-square {
+	color: #5B7DB7;
+}
+
+.fa-heart {
+	color: #d6cfcf;
+}
+
+.follow p:hover i.fa-heart {
+	color: #EC8489;
+}
+
+.content .container .cart .information {
+	width: 36%;
+	float: right;
+	padding: 0 0 0 33px;
+}
+
+.content .container .cart .information p {
+	border-bottom: 1px solid #ddd;
+	padding-bottom: 1em;
+}
+
+.content .container .cart .information p.infor {
+	padding-bottom: 1em;
+}
+
+.content .container .cart .information p.col {
+	padding-bottom: 1.5em;
+	padding-top: 1.5em;
+}
+
+#information2>p.col>span:nth-child(1) {
+	margin-left: -15px;
+}
+
+.content .container .cart .information span.price {
+	float: right;
+	margin-right: -15px;
+}
+
+.content .container .cart .information p.col2 {
+	border: none;
+	padding-top: 1.25em;
+}
+
+.content .container .cart .information p.col2 span {
+	float: right;
+}
+
+.content .container .cart .information button {
+	width: 380px;
+	height: 38px;
+	background: #f37021;
+	color: #fff;
+}
+
+.table {
+	width: 64%;
+	float: left;
+}
+
+.col-md-6 {
+	padding: 0px;
+}
+
+.product-table {
+	width: 100%;
+}
+
+tr>td.size {
+	width: 17%;
+	padding-bottom: 20px;
+}
+
+tr>td.none {
+	width: 38%;
+	padding-bottom: 20px;
+	line-height: 22px;
+}
+
+td.none>p.model {
+	margin-bottom: 5px;
+}
+
+tr>td.price {
+	width: 23%;
+	padding-bottom: 20px;
+	text-align: center;
+}
+
+tr>td.price p {
+	padding-top: 1px;
+}
+
+tr>td.sizeof {
+	width: 23%;
+}
+
+tr>td.size-item p {
+	text-align: center;
+}
+
+thead#thead-table tr td {
+	padding-bottom: 5px;
+}
+
+#delete-item {
+	font-size: 1em;
+	margin-bottom: 0px;
+	cursor: pointer;
+}
+
+#delete-item:hover {
+	color: blue;
+	text-decoration: underline;
+}
+
+#myTable>tbody>tr:nth-child(2)>td.none>p.instock {
+	margin-top: 10px;
+}
+
+#myTable>tbody>tr>td.none>p.name {
+	width: 100%;
+	height: 42px;
+	overflow: hidden;
+	margin-top: 10px;
+}
+
+#myTable>tbody>tr {
+	border-bottom: 1px solid #ddd;
+}
+
+.value {
+	width: 40px;
+}
+
+.inputsm {
+	float: right;
+	width: 44px;
+	height: 38px;
+}
+
+#sum {
+	margin-left: 5px;
+	float: right;
+}

@@ -1,0 +1,411 @@
+html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,
+em,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,b,u,i,center,dl,dt,dd,ol,ul,li,
+fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,embed,figure,figcaption,
+footer,header,hgroup,menu,nav,output,ruby,section,summary,time,mark,audio,video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+
+/* HTML5 display-role reset for older browsers */
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+    display: block;
+}
+
+body {
+    clear: both;
+    line-height: 1;
+}
+
+ol,
+ul {
+    list-style: none;
+}
+
+blockquote,
+q {
+    quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+    content: '';
+    content: none;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+
+/*------------------------------------------------------------------*/
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #F1F1F1;
+    height: 1200px;
+}
+
+.content img {
+    opacity: 1;
+}
+
+.content img:hover {
+    opacity: 0.7;
+}
+
+#KM3,
+#KM2,
+#KM4 {
+    display: none;
+}
+
+.header {
+    background-color: #11252F;
+}
+
+.header .container #menu {
+    float: right;
+}
+
+.container #menu ul li {
+    line-height: 25px;
+    float: right;
+    font-size: 11px;
+    color: #a8b2b7;
+    padding: 0 17px;
+    font-family: Arial;
+    cursor: pointer;
+}
+
+.container #menu ul li.end {
+    padding-right: 0px;
+}
+
+.container #menu ul li.blue {
+    color: #199cb7;
+}
+
+.container #menu ul li.yellow {
+    color: #ff7941;
+}
+
+.container #menu ul li:hover {
+    color: red;
+}
+
+.header .container {
+    padding-right: 0px;
+}
+
+.header2 {
+    background-color: rgb(24, 53, 68);
+    height: 70px;
+    transition: all 5s;
+}
+
+.header2 .container #logo {
+    margin-top: 3px;
+    width: 15%;
+}
+
+.header2 .container #logo img {
+    margin-left: -15px;
+    width: 100%;
+}
+
+.header2 .container .input-group {
+    width: 100%;
+    margin-top: 15px;
+}
+
+.header2 .container .btn {
+    background-color: #F36F36;
+}
+
+.header2 .container .col-md-1 {
+    color: #FFFFFF;
+    font-size: 30px;
+    margin-top: 15px;
+}
+
+.header2 .container .col-md-3 {
+    margin-top: 15px;
+    padding-right: 0px;
+    float: right;
+}
+
+.header2 .container .col-md-3 img {
+    float: right;
+}
+
+.header3 {
+    background-color: rgb(24, 53, 68);
+    height: 40px;
+    border-top: 2px solid #11252F;
+}
+
+.header3 .container #menu ul li {
+    line-height: 14px;
+    color: #FFFFFF;
+    padding: 13px 0 9px;
+    padding-right: 9px;
+    padding-left: 9px;
+    display: inline-block;
+    text-align: center;
+    font-size: 12px;
+    float: left;
+}
+
+.header3 .container #menu li.start {
+    padding-left: 10px;
+}
+
+.header3 .container #menu ul li:hover {
+    color: black;
+    background-color: #FFFFFF;
+    border-bottom: 4px solid red;
+}
+
+.header3 .container {
+    padding: 0px;
+}
+
+.header3 .container .col-md-12 {
+    margin: 0px;
+    padding: 0px;
+    margin-left: 5px;
+}
+
+.header3 .container #menu ul li.yellow {
+    color: #F36F36;
+}
+
+
+/* ***************************** */
+
+.content .container {
+    width: 1173px;
+}
+
+.content .container .footer .text {
+    margin-top: 1em;
+    margin-bottom: 1em;
+    color: #008ba7;
+    font-size: 0.8em;
+}
+
+.content .container .footer .text span.name {
+    color: #4d4d4d;
+}
+
+.information .container {
+    padding: 0px;
+    background-color: #FFF;
+    height: 618px;
+    padding-top: 1em;
+}
+
+.information .container .header .titel .prod {
+    font-size: 24px;
+    margin-bottom: 0.5em;
+}
+
+.information .container .header .titel .rate {
+    font-size: 15px;
+    color: #F1F1F1;
+    margin-bottom: 0.75em;
+}
+
+.information .container .header .titel {
+    margin-bottom: 1em;
+    padding-right: 0px;
+}
+
+.information .container .header .titel .rate a {
+    font-size: 0.8em;
+}
+
+.information .container .header .titel .active {
+    color: #FACA51;
+}
+
+.information .container .header .titel .brand {
+    font-size: 0.8em;
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 1em;
+}
+
+.information .container .header .titel .brand a {
+    margin-left: 5px;
+    margin-right: 6px;
+}
+
+.information .container .header .secondary {
+    margin-top: 1em;
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 2.95em;
+}
+
+.information .container .header .secondary .follow {
+    font-size: 12px;
+}
+.information .container .header .secondary .follow a#backHome{
+    position: absolute;
+    top: 555px;
+    right: 12px;
+}
+
+.information .container .header .secondary .follow i.fa-heart,
+.information .container .header .secondary .fa-facebook-square {
+    font-size: 2em;
+    margin-right: 5px;
+    margin-left: 5px;
+}
+
+.information .container .header .secondary .fa-facebook-square {
+    color: #5B7DB7;
+}
+
+.information .container .header .secondary .fa-heart {
+    color: #d6cfcf;
+}
+
+.information .container .header .secondary .follow:hover i.fa-heart {
+    color: #EC8489;
+}
+
+.information .container .wrapper .col-md-5 .media .col-md-4 .item {
+    margin-left: 1.5em;
+}
+.information .container .wrapper .col-md-5 .media .col-md-4{
+    width: 80%;
+}
+.information .container .wrapper .col-md-5 .media .col-md-4 .item img {
+    border-left: 1px solid #ddd;
+    width: 100%;
+}
+.information .container .wrapper .col-md-5 .media .col-md-1{
+    padding: 0px;
+    width: 12.333%;
+}
+.information .container .wrapper .col-md-5 .media .col-md-1 .item img {
+    border: 1px solid;
+    width: 100%;
+}
+.information .container .wrapper .col-md-4 .prices p{
+  font-size: 13px;
+  line-height: 1.5em;
+  margin-left: -1.5em;
+}
+.information .container .wrapper .col-md-4 .prices p.price{
+ margin-left: -1em;
+ margin-top: -2em;
+ font-size: 24px;
+ line-height: 2em;
+ padding-top: 5px;
+}
+.information .container .wrapper .col-md-4 .prices{
+    margin-top: 3em;
+}
+.information .container .wrapper .col-md-4 .prices p.price{
+  border-top: 1px solid #ddd;
+}
+
+.information .container .wrapper .col-md-4 .text p {
+    font-size: 0.8em;
+    margin-left: -17px;
+}
+
+.information .container .wrapper .col-md-4 {
+    padding: 0px;
+}
+
+.information .container .wrapper .img {
+    padding-left: 1em;
+}
+
+.information .container .wrapper .col-md-4 ul li {
+    list-style: disc;
+    line-height: 1.5em;
+}
+
+.information .container .wrapper .col-md-4 .prices button {
+    width: 45%;
+    height: 40px;
+    background: #f37021;
+    margin-top: 1em;
+    margin-left: -1.5em;
+}
+
+.information .container .wrapper .col-md-4 button span {
+    color: #fff;
+}
+
+.information .container .wrapper .col-md-3 {
+    line-height: 2em;
+}
+
+.information .container .wrapper .col-md-3 .text p select {
+    font-size: 14px;
+}
+
+.information .container .wrapper .col-md-3 .text select.distrit {
+    margin-left: 2px;
+}
+
+.information .container .wrapper .col-md-3 .text i {
+    margin-right: 5px;
+}
+
+.information .container .wrapper .col-md-3 .text p {
+    text-align: justify
+}
+
+.information .container .wrapper .col-md-3 .text p.line2 {
+    line-height: 1.5em;
+}
+#input{
+    height: 36px;
+    width: 256px;
+    margin-left: 10em;
+    margin-top: -34px;
+    padding-top: -0.7em;
+    color: red;
+}
+#cart-item{
+    border: 1px solid #fff;
+    border-radius: 50px;
+    height: 20px;
+    width: 20px;
+    position: absolute;
+    padding-left: 6px;
+    padding-top: 4px;
+    font-size: 14px;
+    /* color: red; */
+    background: #F37021;
+    top: -10px;
+    right: 36px;
+}
